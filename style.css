@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aliceblue;
+  font-family: cursive;
+  user-select: none;
+}
+
+.container {
+  text-align: center;
+  width: 600px;
+  position: relative;
+}
+
+.counter {
+  font-size: 40px;
+}
+
+.loading-bar-back {
+  position: absolute;
+  height: 8px;
+  background-color: antiquewhite;
+  width: 600px;
+  border-radius: 5px;
+  border: none;
+}
+
+.loading-bar-front {
+  position: absolute;
+  height: 8px;
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+}
